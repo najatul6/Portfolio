@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website | Najatul Islam</title>
+
+<!-- ===================== Google Fonts ======================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<!-- ===================== Favicon ======================= -->
+    <link rel="shortcut icon" href="images/FAVICONS.png" type="image/x-icon">
+
+<!-- ===================== Main CSS ======================= -->
+    <link rel="stylesheet" href="css/style.css">
+
+<!-- =====================FontAwesome Script======================= -->
+    <script src="https://kit.fontawesome.com/b610509286.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- ===================== Header Seciton ======================= -->
+    <div id="header">
+        <div class="wrap">
+            <div class="navbar">
+                <nav id="stik">
+                    <img src="images/nin.svg" alt="Najatul_Brand" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#protfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+
+
+            <div class="home-info">
+                <h3 class="hello">
+                    Hello, My name is  <span class="name">Najatul Islam</span>
+                </h3>
+                <h3 class="my-profession">
+                    I'm a Professional <span class="typing">Freelancer</span>                            
+                </h3>
+                <p>
+                    I'm a Professional Freelancer with extensive experience for over 6 years. <br> My expertise is Digital Marketing, Graphic Design,Create and website design, <br> and many more... 
+                </p>
+                <a href="#contact" class="btn hire-me">Hire Me</a>
+            </div>
+        </div>
+    </div>
+
+<!-- ===================== About Seciton ======================= -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Despite being a student, Najatul has already gained a great deal of experience in marketing, design, and development. He has a keen eye for design and is skilled in using various graphic design tools to create visually appealing designs for websites, logos, brochures, and other marketing materials.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Graphic Design</span><br>Logo/Banner/Kindle Book Designing</li>
+                            <li><span>Digital Marketing</span><br>SEO/SMM/B2B/PPC/Email Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Trainging at CM Institute</li>
+                            <li><span>2018 - 2020</span><br>Designer At KNM Litmited</li>
+                            <li><span>2015 - 2019</span><br>Team lead at Fully Inspected and Alux Realty</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>UI/UX Design Training at Programing Hero</li>
+                            <li><span>2020</span><br>Graphic Design from Inspire IT</li>
+                            <li><span>2019</span><br>Digital Marketing from LEDP Project</li>
+                            <li><span>2019</span><br>Rangpur Polytechnic institute </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ===================== Services Seciton ======================= -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>In addition to her design skills. He has knowledge of coding languages such as HTML, CSS, and JavaScript and is capable of developing functional and engaging websites that meet her clients' specific needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Despite being a student, Najatul has already gained a great deal of experience in marketing, design, and development. She has a keen eye for design and is skilled in using various graphic design tools to create visually appealing designs for websites, logos, brochures, and other marketing materials.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Furthermore, Najatul is a marketer at heart. She is skilled in developing and executing effective marketing strategies that drive engagement and increase conversions. She has experience in various digital marketing channels such as search engine optimization (SEO), social media marketing, email marketing, and pay-per-click (PPC) advertising.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ===================== Portfolio Seciton ======================= -->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio/1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you and find the talented piople around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio/2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Kindle book Cover</h3>
+                        <p>The team design notebook cover for you. If you want to gift your best friend. Follow this link and order yours.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio/3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Business Marketing</h3>
+                        <p>This team find your best customer for you. They increase your business seales. Go to hire them.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="work-btn"> See More</a>
+        </div>
+    </div>
+
+
+<!-- ===================== Contact Seciton ======================= -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> najatulislam11@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +8801773827414</p>
+                    <div class="social-icon">
+                        <a href="https://wa.me/+8801773827414"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/mdnajatul.islam.7/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/najatulislam1/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/najatul-islam-94193b1b3/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/MNajatul"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/najatulislam"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.amazon.com/dp/B0BX914RQY"><i class="fa-brands fa-amazon"></i></a>
+                    </div>
+                    <a href="images/Resume of Najatul Islam.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email Address" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright Najatul Islam. Made with <i class="fa-solid fa-heart"></i> by NiN Group </p>
+        </div>
+    </div>
+
+<!-- ===================== Script-Seciton ======================= -->
+
+<!-- ===================== About Script ======================= -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+ <!-- ===================== Typing Script ======================= --> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+
+    <script src="js/script.js"></script>
+
+     <!-- ===================== Contact Script ======================= --> 
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwwEcC51ubebl0-ipYni9AWrsoAGjUDwc7IqYqNeNeEcIIiP4G43FnbD4wajHHg1O6Mjg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+</html>
